@@ -1,0 +1,273 @@
+* {
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  font-family: "Merriweather Sans";
+  height: 100%;
+  width: 100%;
+  color: #837E9F;
+  background-color: #22212C;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.leftcollum {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  height: 100%;
+}
+
+.rightcollum {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+}
+
+.profile-card {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  background-color: #302F3D;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.profile-image {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  border: 2px solid #00ff00;
+  margin-bottom: 30px;
+}
+
+.profile-card p {
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.profile-card span {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.socials-links {
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: #302F3D;
+}
+
+.socials-links img {
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+
+li{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+.tecnologies-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tecnologies {
+  border-radius: 20px;
+  padding: 30px 20px;
+  background-color: #302F3D;
+}
+
+.tecnologies p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.tecnlogies-block{
+  text-transform: uppercase;
+  color: #000000;
+  padding: 6px 0px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  width: 86px;
+  border-radius: 20px;
+  background-color: #CB92B1;
+}
+
+.my-projects {
+  padding: 30px;
+  border-radius: 20px;
+  height: 86px;
+  background-color: #302F3D;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 700px;
+}
+
+.my-projects span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.my-projects p {
+  font-size: 14px;
+}
+
+.projects-display {
+  row-gap: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-display span {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 75%;
+}
+
+.projects-display p {
+  font-size: 14px;
+}
+
+.projects-display img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.project-block-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  width: 50%;
+  height: 186px;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  background-color: #302F3D;
+  margin-right: 30px;
+}
+
+
+.project-block-title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 22px;
+}
+
+.project-block-right {
+  padding: 32px;
+  width: 50%;
+  height: 186px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #302F3D;
+}
+
+.recent-posts {
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  height: 86px;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #302F3D;
+}
+
+.recent-posts-news {
+  border-radius: 20px;
+  background-color: #302F3D;
+  height: 201px;
+}
+
+.clickable-block {
+  cursor: pointer;
+}
+
+.block-hover:hover {
+  transform: scale(1.05);
+}
+
+.block-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.bottomStats {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.statsContainer {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.project-block-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+line.height
